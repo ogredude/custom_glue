@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file custom_glue.module
+ * TODO: Enter file description here.
+ */
+function custom_glue_preprocess_html(&$variables) {
+  $glue = drupal_get_path('module', 'custom_glue') . '/custom_glue.css';
+
+  $options = array(
+    'group' => CSS_THEME + 1,
+    'weight' => 99,
+  );
+
+  drupal_add_css($glue, $options);
+}
+
