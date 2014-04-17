@@ -14,3 +14,9 @@ function custom_glue_preprocess_html(&$variables) {
   drupal_add_css($glue, $options);
 }
 
+function custom_glue_views_pre_render(&$view) {
+  if ("display_products" == $view->name) {
+    /* dpm($view);*/
+
+  }
+}

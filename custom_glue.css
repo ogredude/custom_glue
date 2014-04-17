@@ -1,1 +1,243 @@
+#block-system-user-menu li:before,
+#block-menu-menu-payment-methods li:before {
+  display: none;
+}
+/* User menu */
+
+#block-system-user-menu {
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+#block-system-user-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#block-system-user-menu ul li {
+  background-image: none;
+  border-left: 1px solid #333;
+  float: left;
+  line-height: 1.1em;
+  margin: 0 .5em 0 -.5em;
+  padding: 0 .5em 0 .5em;
+}
+
+#block-system-user-menu ul li:first-child {
+  border: 0;
+}
+
+#block-system-user-menu ul li a {
+  text-decoration: none;
+}
+
+#block-system-user-menu ul li a:hover {
+  color: #000;
+}
+
+#block-system-user-menu div.art-box {
+  min-height: 34px;
+}
+
+#block-logintoboggan-logintoboggan-logged-in div.art-blockcontent, #block-user-login div.art-blockcontent {
+  height: 34px
+}
+
+/*
+ * Shopping Cart
+ */
+
+#block-views-shopping-cart-block {
+  margin-left: auto;
+}
+
+#block-views-shopping-cart-block .content {
+  background-color: #ffffff;
+  background-position: 1% 30%;
+  /* LTR */
+  background-repeat: no-repeat;
+  float: right;
+  /* LTR */
+  margin-left: -60px;
+  /* LTR */
+  padding-left: 38%;
+  /* LTR */
+}
+
+
+/*
+ * Sort Buttons
+ */
+
+#block-search-api-sorts-search-sorts
+.art-postcontent ul>li:before,
+.art-post ul>li:before,
+.art-textblock ul>li:before {
+  content: none;
+  margin-top: 5px;
+  margin-right: 6px;
+  bottom: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+}
+
+#block-search-api-sorts-search-sorts .conten ul.search-api-sorts li .search-api-sort-active {
+  color: #ffffff
+  position: relative;
+  padding-right: 25px;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+
+#block-search-api-sorts .item-list ul.search-api-sorts li a.active {
+  background-color: #1a1111;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  padding: 5px 12px;
+}
+/*
+ * Product Display
+ */
+#block-system-main div.panels-flexible-region-3-center div.pane-views-display-products-block-3 {
+  width: 600px;
+}
+
+#block-system-main div.panels-flexible-region-3-center .item-list li {
+ padding-right: 60px;
+}
+
+.page-products .view-display-products li.views-row {
+  padding-right: 15px;
+ }
+
+.item-list .views-row .field-name-title-field {
+  margin-bottom: 1em;
+}
+
+#block-system-main .views-row {
+  width: auto;
+}
+
+#block-search-api-sorts-search-sorts h2 {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#block-search-api-sorts-search-sorts .item-list {
+  margin-top: 10px;
+}
+
+/*
+ * Add to cart
+ */
+
+.commerce-add-to-cart .form-submit {
+  min-width: 70px;
+
+}
+
+.commerce-add-to-cart div.form-item-quantity {
+  max-width: 150px;
+}
+
+/********************
+ * Front Page
+ ********************/
+
+.views-row .views-field-field-tagline,
+.views-field-title
+{
+  padding-left: 1em;
+}
+
+/*
+ * Slideshow
+ */
+
+.views-slideshow-cycle-main-frame {
+  left: 4%;
+}
+
+#art-main .art-header {
+  margin-bottom: 15px;
+
+}
+
+/*************
+ * Profile Page
+ */
+
+.arttabs_primary li a.art-button, a.art-button:link {
+  padding-right: .2em;
+  padding-left: .2em;
+  width: auto;
+  height: auto;
+}
+
+
+a.art-button,
+a.art-button:link,
+a:link.art-button:link,
+body a.art-button:link,
+a.art-button:visited,
+body a.art-button:visited,
+input.art-button,
+button.art-button
+{
+   color: #FFFFFF;
+   margin: 1em !important;
+   min-width: 10px;
+}
+
+/*
+ * Login Toboggan
+ */
+
+#block-user-login #user-login-form div {
+  z-index: 10;
+  position: relative;
+
+}
+
+  #block-user-login #user-login-form .user-login-block {
+   background-color: #9D4B3F;
+
+  }
+
+    #block-user-login #user-login-form .user-login-block .form-item {
+    width: 90%;
+    position: relative;
+    margin-left: 1em;
+    margin-right: auto;
+    }
+
+
+
+/*
+ * Powered by Artisteer removal
+ */
+
+.art-page-footer #art-footnote-links {
+  display: none;
+}
+
+/*
+ * Search bar
+ */
+
+#block-views-exp-display-products-page .views-submit-button,
+.views-submit-button:hover{
+  right: -45px;
+  top: -10px;
+}
+
+#block-views-exp-display-products-page .views-submit-button .form-submit {
+  border: none;
+}
 
